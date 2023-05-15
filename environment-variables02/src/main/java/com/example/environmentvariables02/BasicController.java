@@ -13,6 +13,6 @@ public class BasicController {
     Environment environment;
     @GetMapping
     public String getEnv(){
-        return environment.getProperty("welcomeMSG");
+        return environment.getProperty("welcomeMsg");
     }
 }
