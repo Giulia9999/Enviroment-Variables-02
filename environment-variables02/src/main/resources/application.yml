@@ -7,7 +7,7 @@ spring:
       on-profile: prod
 server:
   port: 5000
-welcomeMSG: Hello from Prod
+welcomeMsg: Hello from Prod
 ---
 spring:
   config:
@@ -15,4 +15,4 @@ spring:
       on-profile: test
 server:
   port: 4000
-welcomeMSG: Hello from Test
+welcomeMsg: Hello from Test
